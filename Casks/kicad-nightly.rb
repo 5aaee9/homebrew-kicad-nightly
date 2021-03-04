@@ -1,6 +1,6 @@
 cask "kicad-nightly" do
-  version "20210302-204644-c0f3e53b52"
-  sha256 "3deca2aefadd959548ece822175aec1dd272c2185c5edd5cdd32ef592c30eb34"
+  version "20210303-211205-5f6bc03e26"
+  sha256 "3a249b7d1e5fee0582b0bc3c62feb51893e5749e23dc6d60efdf3f861b174172"
 
   url "https://kicad-downloads.s3.cern.ch/osx/nightly/kicad-unified-#{version}-10_14.dmg",
       verified: "kicad-downloads.s3.cern.ch/"
@@ -18,12 +18,7 @@ cask "kicad-nightly" do
   app "KiCad/PCB Calculator.app",     target: "KiCad/PCB Calculator.app"
   app "KiCad/Pcbnew.app",             target: "KiCad/Pcbnew.app"
   app "KiCad/Page Layout Editor.app", target: "KiCad/Page Layout Editor.app"
-  artifact "KiCad/share",             target: "/Applications/KiCad/share"
-  artifact "kicad/3dmodels",          target: "/Library/Application Support/kicad/3dmodels"
-  artifact "kicad/help",              target: "/Library/Application Support/kicad/help"
-  artifact "kicad/library",           target: "/Library/Application Support/kicad/library"
-  artifact "kicad/modules",           target: "/Library/Application Support/kicad/modules"
-  artifact "kicad/template",          target: "/Library/Application Support/kicad/template"
+  artifact "kicad",          target: "/Library/Application Support/kicad/"
 
   uninstall rmdir: [
     "/Library/Application Support/kicad",
