@@ -1,6 +1,6 @@
 cask "kicad-nightly" do
-  version "20220218-000728-3a29d94c0a"
-  sha256 "66f77d50f41350bb9092896286ba5412834cefb2154194a2b5180b51661192ab"
+  version "20220219-001341-2560c8f31b"
+  sha256 "118a198db6b7266345fb1aba1dbe1e324ff57ebb05893b9df1deb726356ac2af"
 
   url "https://kicad-downloads.s3.cern.ch/osx/nightly/kicad-unified-#{version}.dmg",
       verified: "kicad-downloads.s3.cern.ch/"
