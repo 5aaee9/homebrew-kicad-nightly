@@ -4,7 +4,6 @@ cask "kicad-nightly" do
 
   url "https://downloads.kicad.org/kicad/macos/explore/nightlies/download/kicad-unified-#{version}.dmg",
       verified: "downloads.kicad.org/"
-  appcast "https://downloads.kicad.org/?delimiter=/&prefix=osx/nightly/"
   name "KiCad"
   desc "Electronics design automation suite"
   homepage "https://kicad.org/"
