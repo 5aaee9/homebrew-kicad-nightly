@@ -7,8 +7,10 @@ on:
   schedule:
     # Every day
     - cron:  '0 1 * * *'
-  push: [ master ]
+  push: 
+    branches: [ master ]
 
+jobs:
   update:
     runs-on: ubuntu-latest
 
@@ -25,4 +27,6 @@ on:
       run: |
         git config --global user.email github-actions[bot]@users.noreply.github.com
         git config --global user.name github-actions[bot]
+
+        bash .github/scripts/update.bash
         git push
