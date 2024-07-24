@@ -40,5 +40,5 @@ rm -f kicad.dmg
 git add nightly.version
 git add Casks
 
-git commit -m "kicad: $OLD_VERSIOn -> $VERSION"
+git commit -m "kicad: $OLD_VERSION -> $VERSION"
 git push origin master
