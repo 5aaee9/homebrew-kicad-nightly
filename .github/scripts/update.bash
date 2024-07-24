@@ -24,7 +24,7 @@ fi
 
 # Download latest release and calcuate hash of dmg file
 curl \
-    -SL ttps://downloads.kicad.org/kicad/macos/explore/nightlies/download/kicad-unified-$VERSION.dmg \
+    -SL https://downloads.kicad.org/kicad/macos/explore/nightlies/download/kicad-unified-$VERSION.dmg \
     -o kicad.dmg
 
 export HASH=$(sha256sum kicad.dmg | awk '{print $1}')

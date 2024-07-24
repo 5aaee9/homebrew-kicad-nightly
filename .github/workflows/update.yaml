@@ -7,6 +7,7 @@ on:
   schedule:
     # Every day
     - cron:  '0 1 * * *'
+  push: [ master ]
 
   update:
     runs-on: ubuntu-latest
