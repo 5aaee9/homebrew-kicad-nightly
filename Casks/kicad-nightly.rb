@@ -1,6 +1,6 @@
 cask "kicad-nightly" do
-  version "universal-20260507-0501-ed1e7dbdd5"
-  sha256 "5ceabe42b63938171a88ecde1fac3a21e547b6f0e3b502037744f31e6466c4d3"
+  version "universal-20260508-0435-99c64afbf8"
+  sha256 "04b2b5f5f5ef17eea132642d12891658c1c29ceaf6921ad6af53b748edc123e5"
 
   url "https://downloads.kicad.org/kicad/macos/explore/nightlies/download/kicad-unified-#{version}.dmg",
       verified: "downloads.kicad.org/"
