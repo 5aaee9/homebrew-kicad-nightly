@@ -1,6 +1,6 @@
 cask "kicad-nightly" do
-  version "universal-20260908-0504-aa01e4fd3b"
-  sha256 "2a096a156ddca8ee2997a1b280e6ff88257b3378b6ad469e4fd188e5fcfce85d"
+  version "universal-20260910-0504-d7e34de179"
+  sha256 "0b68cfc334ce03af9fd4b8da6c2d7b264f10fc4dafdf994e5167866fe643626e"
 
   url "https://downloads.kicad.org/kicad/macos/explore/nightlies/download/kicad-unified-#{version}.dmg",
       verified: "downloads.kicad.org/"
@@ -8,7 +8,7 @@ cask "kicad-nightly" do
   desc "Electronics design automation suite"
   homepage "https://kicad.org/"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :sonoma
 
   suite "KiCad"
   artifact "demos", target: "/Library/Application Support/kicad/demos"
